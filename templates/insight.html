@@ -4,35 +4,63 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>POST TITLE — iliotech</title>
-  <meta name="description" content="ONE-SENTENCE SUMMARY">
-  <link rel="canonical" href="https://iliotech.com/insights/SLUG.html">
-  <meta property="og:type" content="article">
+  <meta name="description" content="One-sentence summary.">
+  <meta name="author" content="Rob Chang">
+  <link rel="canonical" href="https://iliotech.com/insights/your-slug.html">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#faf8f4">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="iliotech">
   <meta property="og:title" content="POST TITLE — iliotech">
-  <meta property="og:description" content="ONE-SENTENCE SUMMARY">
-  <meta property="og:url" content="https://iliotech.com/insights/SLUG.html">
+  <meta property="og:description" content="One-sentence summary.">
+  <meta property="og:url" content="https://iliotech.com/insights/your-slug.html">
   <meta property="og:image" content="https://iliotech.com/assets/og-default.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="POST TITLE — iliotech">
+  <meta name="twitter:description" content="One-sentence summary.">
+  <meta name="twitter:image" content="https://iliotech.com/assets/og-default.svg">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../css/styles.css">
+  <!-- TODO: privacy-friendly analytics (Plausible or GoatCounter). Example:
+  <script defer data-domain="iliotech.com" src="https://plausible.io/js/script.js"></script>
+  -->
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header"><div class="wrap nav">
-  <a class="brand" href="../">ilio<span class="dot">tech</span></a>
-  <nav aria-label="Primary"><ul class="nav-links">
-    <li><a href="../insights/" aria-current="page">Insights</a></li><li><a href="../contact/">Contact</a></li>
-  </ul></nav>
-</div></header>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="../">Rob Chang</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+    <nav aria-label="Primary" id="nav-menu" class="nav-links-wrap">
+      <ul class="nav-links"><li><a href="../about/">About</a></li><li><a href="../work/">Work</a></li><li><a href="../insights/" aria-current="page">Writing</a></li><li><a href="../contact/">Contact</a></li></ul>
+    </nav>
+  </div>
+</header>
+
 <main id="main">
-  <article class="wrap prose">
-    <header class="article-header">
-      <p class="eyebrow">Insight · YYYY-MM-DD</p>
-      <h1>POST TITLE</h1>
-    </header>
-    <p>Lead…</p>
-    <h2>Section</h2><p>Body…</p>
+
+  <article class="article">
+    <div class="wrap">
+      <header class="page-hero" style="padding-bottom:0">
+        <h1>POST TITLE</h1>
+        <p class="byline">Rob Chang &middot; Month D, YYYY</p>
+      </header>
+      <div class="prose">
+        <p>Lead paragraph, set larger automatically.</p>
+        <h2>Section</h2>
+        <p>Body.</p>
+        <p><a class="arrow" href="../contact/">Call to action</a></p>
+      </div>
+    </div>
   </article>
 </main>
-<footer class="site-footer"><div class="wrap"><p>Add to insights/index.html + sitemap.xml</p></div></footer>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>Rob Chang &middot; iliotech &middot; Los Altos, CA</p>
+    <ul class="footer-links"><li><a href="mailto:rob@iliotech.com">rob@iliotech.com</a></li> <li><a href="https://www.linkedin.com/in/robchang1" rel="noopener">LinkedIn</a></li> <li><a href="https://github.com/robchang" rel="noopener">GitHub</a></li> <li><a href="https://gearcloudlabs.com" rel="noopener">Gearcloud Labs</a></li></ul>
+  </div>
+</footer>
 <script src="../js/main.js" defer></script>
 </body>
 </html>
